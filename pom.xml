@@ -6,8 +6,8 @@
   <version>2.0.0.0</version>
   <repositories>
     <repository>
-      <id>windward-maven-repo</id>
-      <name>windward-maven-repo</name>
+      <id>windward-libs</id>
+      <name>windward-libs</name>
       <url>https://windward.mycloudrepo.io/public/repositories/windward-libs</url>
     </repository>
   </repositories>
@@ -27,7 +27,22 @@
     <dependency>
       <groupId>net.windward</groupId>
       <artifactId>WindwardRESTJava8Client</artifactId>
-      <version>1.0.0.0</version>
+      <version>2.1.0.101</version>
+    </dependency>
+      <dependency>
+          <groupId>Samples</groupId>
+          <artifactId>RunReport</artifactId>
+          <version>2.0.0.0</version>
+      </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>1.4</version>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.12</version>
     </dependency>
   </dependencies>
 </project>
