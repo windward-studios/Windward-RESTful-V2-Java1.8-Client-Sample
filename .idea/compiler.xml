@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RunReport" />
-        <module name="java" />
+        <module name="test" />
+        <module name="Windward-RESTful-V2-Java1.8-Client-Sample" />
       </profile>
     </annotationProcessing>
   </component>
