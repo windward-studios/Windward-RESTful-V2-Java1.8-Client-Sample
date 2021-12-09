@@ -62,7 +62,7 @@ public class Sample
         // retrieve the generated document
         Document testGetDocument = client.getDocument(testPostDoc.getGuid());
         System.out.println("Successfully got document with guid "+ testGetDocument.getGuid());
-
+        System.out.println("Number of pages = "+ testGetDocument.getNumberOfPages());
         //METRICS
 
         //posting the metrics for processing
