@@ -13,9 +13,10 @@ import java.util.List;
 public class Sample
 {
     public static void main(String[] args) throws IOException, ApiException, InterruptedException {
-        System.out.println("Working Directory = " + System.getProperty("user.dir"));
+        //SET THIS VARIABLE WITH THE ADDRESS OF YOUR RESTFUL ENGINE
+        String url = "";
         //initialize a new client with your restful address
-        WindwardClient client = new WindwardClient("http://localhost:50548/");
+        WindwardClient client = new WindwardClient(url);
 
         // getting the version info
         VersionInfo version = client.getVersion();
@@ -61,7 +62,7 @@ public class Sample
         // retrieve the generated document
         Document testGetDocument = client.getDocument(testPostDoc.getGuid());
         System.out.println("Successfully got document with guid "+ testGetDocument.getGuid());
-
+        System.out.println("Number of pages = "+ testGetDocument.getNumberOfPages());
         //METRICS
 
         //posting the metrics for processing
