@@ -51,7 +51,7 @@
         <dependency>
             <groupId>net.windward</groupId>
             <artifactId>WindwardRESTJava8Client</artifactId>
-            <version>21.5.2.5</version>
+            <version>21.5.2.6</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
